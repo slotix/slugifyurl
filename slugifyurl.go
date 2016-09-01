@@ -16,9 +16,10 @@ type Options struct {
 
 // Slugify modifies URL to a sanitized string which can be used, for instance, as a filename.
 /*
-1. Protocol and Userinfo could be omitted  (http:// or https:// and <user>:<password>@ )
-2. Slashes are replaced with slashChar character, for example "-"
-3. Resulted string is limited to maxLength options parameter
+
+- Protocol and Userinfo could be omitted (http:// or https:// and <user>:<password>@)
+- Slashes are replaced with slashChar character, for example "-"
+- Resulted string is limited to maxLength options parameter
 
 Examples
  - https://admin:test@www.example.com/ --> www.example.com
