@@ -2,13 +2,14 @@ SlugifyURL
 ----------
 [![Build Status](https://travis-ci.org/slotix/slugifyurl.svg?branch=master)](https://travis-ci.org/slotix/slugifyurl)
 [![Go Report Card](https://goreportcard.com/badge/github.com/slotix/slugifyurl)](https://goreportcard.com/report/github.com/slotix/slugifyurl)
-Slugify modifies URL to a sanitized string which can be used, for instance, as a filename.
+
+SlugifyURL modifies URL to a sanitized string which can be used, for instance, as a filename.
 
 Description
 -----------
-1. Protocol and Userinfo could be omitted  (http:// or https:// and user:password@ )
-2. Slashes are replaced with slashChar character, for example "-"
-3. Resulted string is limited to maxLength options parameter
+- Protocol and Userinfo could be omitted  (http:// or https:// and user:password@ )
+- Slashes are replaced with slashChar character, for example "-"
+- Resulted string is limited to maxLength options parameter
 
 Examples
 --------
