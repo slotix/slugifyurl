@@ -1,6 +1,8 @@
 language: go
-
 go:
-  - 1.5
-  - 1.6
-  - tip
+- 1.5
+- 1.6
+- tip
+env:
+  global:
+    secure: NCOkP6qpN+y+HpQV6aXHZ93cdiJscQ6os1BZsw/MUKoGde2yeKWAEIGyRerlZsGT+sbRBEsWR+H7zs+Wxy5L9cE5UTnnZNe2Jj7TBBgIVZtUKffhSK/o9W9SitPSCHglX7w2KaGt0SD4m0/g30G6ta8AOimjinZNuHeZbkvNOMrJourfpc504RvvoZ4JByZ/fosHoAzWvkApjA4SvqUeBoi9gJ+LB1QcwozgEYoOeRTr1kwLYjvOGv9QnW0CslRl+A8u4Q6j758+k0jl2tn2lC4TLJWoi+oLiuDj6bwAB9ypjqaQovCGtWQ2ksZiYlsNrTmVdryekHi69xQtTx33qioebLyggs0zqyJsyHiqwZVUup+t0ksqy+qSAmpmSQZXcmqK52O5ZySiOudsskA9GCTFVt8Hw01HKe3ASpvNlgcI7M2a/tiPK3zC5CBUrhWfdaLl2QJckzbRPISwmIHMpu6XLagoIh5esEBumeWyh5vwxOYTHxCeVnfSSue3V24MbraLO3ZzIM8EwNKwghO3TBy+tbs4wl1JlsjMdAd5HMZ3mn1cL9uH2wxslbxUuUzs/jmPSFZYPWQLqQC/lUu9KdSBeazZQXznNAqJ/433bLmXaoY0XU70GudBzqPT7TLCbzQ+GYekFWTaSdlGqxSG/7dVt1dP/nT7IBnk8hnIUE8=
