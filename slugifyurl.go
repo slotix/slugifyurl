@@ -14,7 +14,7 @@ type Options struct {
 	UnixOnly     bool   //if true it doesn't check invalid characters for Windows file names
 }
 
-// Slugify modifies URL to sanitized string which can be used, for instance, as a filename.
+// Slugify modifies URL to a sanitized string which can be used, for instance, as a filename.
 /*
 1. Protocol and Userinfo could be omitted  (http:// or https:// and <user>:<password>@ )
 2. Slashes are replaced with slashChar character, for example "-"
