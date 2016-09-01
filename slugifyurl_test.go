@@ -2,13 +2,12 @@ package slugifyurl
 
 import (
 	"fmt"
-	slug "github.com/slotix/slugifyurl"
 	"testing"
 )
 
 func TestSlugifyURL(t *testing.T) {
-	
-	options := slug.Options{
+
+	options := Options{
 		SlashChar:    "-",
 		MaxLength:    50,
 		SkipScheme:   true,
@@ -16,9 +15,9 @@ func TestSlugifyURL(t *testing.T) {
 		UnixOnly:     false,
 	}
 
-	fmt.Println(slug.Slugify("http://www.example.com///cgi-bin///user.pl?user=admin///", options))
-	fmt.Println(slug.Slugify("https://admin:test@www.example.com/", options))
-	fmt.Println(slug.Slugify("https://www.example.com?q=<>:\"/\\|?*A", options))
-    fmt.Println(slug.Slugify("https://www.example.com/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/", options))
-    
+	fmt.Println(Slugify("http://www.example.com///cgi-bin///user.pl?user=admin///", options))
+	fmt.Println(Slugify("https://admin:test@www.example.com/", options))
+	fmt.Println(Slugify("https://www.example.com?q=<>:\"/\\|?*A", options))
+	fmt.Println(Slugify("https://www.example.com/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/", options))
+
 }
