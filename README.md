@@ -1,5 +1,7 @@
 SlugifyURL
 ----------
+[![Build Status](https://travis-ci.org/slotix/slugifyurl.svg?branch=master)](https://travis-ci.org/slotix/slugifyurl)
+
 Slugify modifies URL to a sanitized string which can be used, for instance, as a filename.
 
 Description
