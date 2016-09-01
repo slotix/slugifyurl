@@ -13,13 +13,17 @@ Slugify modifies URL to a sanitized string which can be used, for instance, as a
  - https://www.example.com/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/ -->
   www.example.com-extremely-long-url-extremely-long-
 
-## Installation 
+Installation 
+------------
+
 ```
 go get -u github.com/slotix/slugifyurl
 ```
-## Usage
 
-```
+Usage
+-----
+
+```go
 package main
 import (
     "fmt"
