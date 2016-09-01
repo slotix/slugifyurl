@@ -15,5 +15,27 @@ Slugify modifies URL to a sanitized string which can be used, for instance, as a
 
 ## Installation 
 ```
-go get github.com/slotix/slugifyurl
+go get -u github.com/slotix/slugifyurl
 ```
+## Usage
+
+```
+package main
+import (
+    "fmt"
+    slugify "github.com/slotix/slugifyurl"
+)
+
+func main() {
+    options := slug.Options{
+		SlashChar:    "-",      //Used to replace slashes
+		MaxLength:    50,       //Output string length limit 
+		SkipScheme:   true,     //Omit scheme http(s)://
+		SkipUserinfo: true,     //Omit username and password information
+		UnixOnly:     false,    //Vlidate file names for Windows OS.    
+	}
+    url := "http://admin:test@www.example.com///cgi-bin///user.pl?user=admin///"
+    
+    fmt.Println(slugify(url))
+    //Output: www.example.com-cgi-bin-user.pl-user=admin
+}
