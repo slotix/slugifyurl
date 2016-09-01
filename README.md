@@ -12,5 +12,6 @@ Slugify modifies URL to a sanitized string which can be used, for instance, as a
  - https://www.example.com?q=<>:\"/\\|?*A --> www.example.com-q=-A
  - https://www.example.com/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/extremely-long-url/ -->
   www.example.com-extremely-long-url-extremely-long-
+
 # Installation 
 '''go get github.com/slotix/slugifyurl'''
