@@ -1,0 +1,12 @@
+mode: count
+github.com/slotix/slugifyurl/slugifyurl.go:32.53,35.24 2 4
+github.com/slotix/slugifyurl/slugifyurl.go:40.2,40.26 1 4
+github.com/slotix/slugifyurl/slugifyurl.go:45.2,48.23 3 4
+github.com/slotix/slugifyurl/slugifyurl.go:54.2,54.32 1 4
+github.com/slotix/slugifyurl/slugifyurl.go:63.2,63.40 1 4
+github.com/slotix/slugifyurl/slugifyurl.go:66.2,66.18 1 4
+github.com/slotix/slugifyurl/slugifyurl.go:35.24,38.3 2 4
+github.com/slotix/slugifyurl/slugifyurl.go:40.26,43.3 2 4
+github.com/slotix/slugifyurl/slugifyurl.go:48.23,53.3 2 4
+github.com/slotix/slugifyurl/slugifyurl.go:54.32,61.3 4 4
+github.com/slotix/slugifyurl/slugifyurl.go:63.40,65.3 1 1
