@@ -2,7 +2,6 @@ SlugifyURL
 ----------
 [![Build Status](https://travis-ci.org/slotix/slugifyurl.svg?branch=master)](https://travis-ci.org/slotix/slugifyurl)
 [![Go Report Card](https://goreportcard.com/badge/github.com/slotix/slugifyurl)](https://goreportcard.com/report/github.com/slotix/slugifyurl)
-[![Coverage Status](https://coveralls.io/repos/github/slotix/slugifyurl/badge.svg?branch=master)](https://coveralls.io/github/slotix/slugifyurl?branch=master)
 
 SlugifyURL modifies URL to a sanitized string which can be used, for instance, as a filename.
 
